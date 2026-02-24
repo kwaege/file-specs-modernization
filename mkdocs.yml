@@ -1,0 +1,40 @@
+site_name: ADP Health Compliance File Specifications
+site_description: Technical documentation for ADPHC file specifications
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/images/adp-logo-reverse.png
+  favicon: assets/images/adp-favicon.svg
+  features:
+    - toc.integrate 
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+    - search.share
+
+nav:
+  - Home: index.md
+  - Multi-Employer:
+      - Specification: multi-employer/index.md
+
+extra_css:
+  - assets/styles/adp-tokens.css
+  - assets/styles/adp-theme.css
+  - assets/styles/adp-typography.css
+  - assets/styles/adp-components.css
+  - assets/styles/adp-layout.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 2
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed

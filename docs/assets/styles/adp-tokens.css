@@ -1,0 +1,20 @@
+/* ADP design tokens for docs; variables only. Do not add layout resets here. */
+:root {
+  --adp-red: #D0271D;
+  --adp-red-hover: #b01f17;
+  --adp-midnight: #010035;
+  --adp-white: #FEFEFE;
+  --adp-light-gray: #F2F3F3;
+  --adp-dark-gray: #54565A;
+  --adp-light-pink: #FFE5E7;
+  --adp-space-1: 0.25rem;
+  --adp-space-2: 0.5rem;
+  --adp-space-3: 0.75rem;
+  --adp-space-4: 1rem;
+
+  --adp-text: var(--adp-midnight);
+  --adp-bg: var(--adp-white);
+  --adp-border: var(--adp-light-gray);
+  --adp-link: var(--adp-red);
+  --adp-link-hover: var(--adp-red-hover);
+}

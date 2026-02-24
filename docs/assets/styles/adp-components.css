@@ -1,0 +1,61 @@
+/* ADP component classes for docs UI. Do not add layout resets here. */
+.adp-btn {
+  display: inline-block;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.875rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+}
+
+.adp-btn--red {
+  background-color: var(--adp-red);
+  border-color: var(--adp-red);
+  color: var(--adp-white);
+}
+
+.adp-btn--red:hover {
+  background-color: var(--adp-midnight);
+  border-color: var(--adp-midnight);
+  color: var(--adp-white);
+}
+
+.adp-btn--midnight {
+  background-color: var(--adp-midnight);
+  border-color: var(--adp-midnight);
+  color: var(--adp-white);
+}
+
+.adp-btn--midnight:hover {
+  background-color: var(--adp-dark-gray);
+  border-color: var(--adp-dark-gray);
+  color: var(--adp-white);
+}
+
+.adp-pill {
+  display: inline-block;
+  border: 1px solid var(--adp-border);
+  border-radius: 9999px;
+  padding: 0.1rem 0.5rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--adp-midnight);
+  background-color: var(--adp-light-pink);
+}
+
+.adp-link {
+  color: var(--adp-link);
+  text-decoration-color: var(--adp-link);
+  text-underline-offset: 0.15em;
+}
+
+.adp-link:hover {
+  color: var(--adp-link-hover);
+  text-decoration-color: var(--adp-link-hover);
+}

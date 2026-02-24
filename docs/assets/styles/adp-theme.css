@@ -1,0 +1,45 @@
+/* ADP-to-Material theme mapping for docs. Do not add layout resets here. */
+:root {
+  --md-primary-fg-color: var(--adp-red);
+  --md-accent-fg-color: var(--adp-red);
+  --md-default-bg-color: var(--adp-bg);
+  --md-default-fg-color: var(--adp-text);
+  --md-typeset-a-color: var(--adp-link);
+}
+
+/* Header uses ADP red for clear brand presence in docs chrome */
+.md-header {
+  background-color: var(--adp-red);
+}
+
+/* Keep the ADP logo readable in the header without affecting layout */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.5rem;
+  width: auto;
+}
+
+/* Documentation link colors with stronger hover contrast */
+.md-content .md-typeset a {
+  color: var(--adp-link);
+}
+
+.md-content .md-typeset a:hover {
+  color: var(--adp-link-hover);
+}
+
+/* Improve dense spec table readability in technical pages */
+.md-content .md-typeset table:not([class]) {
+  font-size: 0.92rem;
+}
+
+.md-content .md-typeset table:not([class]) th {
+  white-space: nowrap;
+}
+
+/* Add subtle section separators above H2 for long-page scanning */
+.md-content .md-typeset h2 {
+  border-top: 1px solid var(--adp-border);
+  margin-top: 2rem;
+  padding-top: 1rem;
+}

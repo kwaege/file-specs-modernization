@@ -1,0 +1,18 @@
+/* Hide the right-hand sidebar (secondary TOC) */
+.md-sidebar--secondary,
+.md-sidebar.md-sidebar--secondary {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+}
+
+/* Reclaim the space in the main layout */
+.md-main__inner {
+  grid-template-columns: 1fr !important;
+}
+
+/* Let the content use the width */
+.md-content__inner,
+.md-typeset {
+  max-width: 100% !important;
+}
