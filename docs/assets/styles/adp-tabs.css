@@ -1,0 +1,75 @@
+/* ===================================================
+   FINAL ADP PILL TABS
+   =================================================== */
+
+/* Center the tab group */
+.md-typeset .tabbed-set.tabbed-alternate {
+  text-align: center;
+}
+
+/* Red pill container */
+.md-typeset .tabbed-set.tabbed-alternate > .tabbed-labels.tabbed-labels--linked {
+  display: inline-flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 10px !important;
+
+  background: var(--adp-red) !important;
+  padding: 10px 12px !important;
+  border-radius: 4px !important;
+  margin: 0 auto !important;
+}
+
+/* 🔥 Remove ALL Material indicator underlines */
+.md-typeset .tabbed-set,
+.md-typeset .tabbed-labels--linked {
+  --md-indicator-height: 0px !important;
+}
+
+.md-typeset .tabbed-labels--linked::after,
+.md-typeset .tabbed-labels--linked::before {
+  display: none !important;
+}
+
+/* Base tab button (inactive) */
+.md-typeset .tabbed-labels > label {
+  margin: 0 !important;
+}
+
+.md-typeset .tabbed-labels > label > a {
+  display: inline-block !important;
+  padding: 10px 16px !important;
+  font-weight: 700 !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+
+  /* INACTIVE = red background, white text */
+  background: var(--adp-red) !important;
+  color: var(--adp-white) !important;
+
+  border-radius: 2px !important;
+  border: none !important;
+}
+
+/* ACTIVE TAB (white background + red text) */
+.md-typeset .tabbed-labels > label.adp-tab-active > a {
+  background: var(--adp-white) !important;
+  color: var(--adp-red) !important;
+  border: none !important;
+}
+
+/* Content box */
+.md-typeset .tabbed-set.tabbed-alternate > .tabbed-content {
+  margin-top: 14px !important;
+  border: 1px solid var(--adp-border) !important;
+  border-radius: 10px !important;
+  background: var(--adp-white) !important;
+  overflow: hidden !important;
+
+  text-align: left !important; /* fix alignment */
+}
+
+.md-typeset .tabbed-content .tabbed-block {
+  padding: 16px 20px !important;
+  text-align: left !important;
+}

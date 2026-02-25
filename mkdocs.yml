@@ -21,12 +21,17 @@ nav:
   - Multi-Employer:
       - Specification: multi-employer/index.md
 
+extra_javascript:
+  - assets/javascripts/adp-content-tabs.js
+
 extra_css:
   - assets/styles/adp-tokens.css
   - assets/styles/adp-theme.css
   - assets/styles/adp-typography.css
   - assets/styles/adp-components.css
   - assets/styles/adp-layout.css
+  - assets/styles/adp-admonitions.css
+  - assets/styles/adp-tabs.css
 
 markdown_extensions:
   - admonition
@@ -37,4 +42,5 @@ markdown_extensions:
       toc_depth: 2
   - pymdownx.superfences
   - pymdownx.details
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true

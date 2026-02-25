@@ -1,7 +1,20 @@
 # ADPHC File Specifications
 
-Technical documentation for ADPHC file specifications.
+!!! warning "Validation rule"
+    STAT records MUST be sorted by Status Effective Date (oldest first).
 
-Use the navigation to browse domain-specific specs and implementation notes.
 
-[Download sample](#){ .adp-btn .adp-btn--red }
+[Subscribe to our newsletter](#){ .md-button }
+
+
+=== "Unordered list"
+
+    * Sed sagittis eleifend rutrum
+    * Donec vitae suscipit est
+    * Nulla tempor lobortis orci
+
+=== "Ordered list"
+
+    1. Sed sagittis eleifend rutrum
+    2. Donec vitae suscipit est
+    3. Nulla tempor lobortis orci
